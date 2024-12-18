@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #242424;
+  --main-color: azure;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  color: azure;
+  box-shadow: 1px 1px 1rem azure;
+}
+
+.workout-design-1 {
+  p:first-of-type {
+    border: 2px solid azure;
+    border-radius: 50%;
+    padding: 0.3rem;
+  }
+}
