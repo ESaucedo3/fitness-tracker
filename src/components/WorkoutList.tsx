@@ -35,7 +35,7 @@ export const WorkoutList = () => {
     <div>
       {workouts.length === 0 ? <p className="text-center">No workouts present, create one</p> : (
         workouts.map((workout, index) => (
-          <WorkoutItem key={index} {...workout} />
+          <WorkoutItem key={index} workout={workout} />
         ))
       )}
       <WorkoutForm addWorkout={addWorkout} />
